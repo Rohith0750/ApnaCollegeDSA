@@ -2,5 +2,6 @@
   "java.project.sourcePaths": [
     "11functions"
   ],
-  "java.project.outputPath": "bin"
+  "java.project.outputPath": "bin",
+  "java.debug.settings.onBuildFailureProceed": true
 }
