@@ -41,7 +41,14 @@ public class product {
 
 
         public static boolean optimizeprime(int n){
+               
+            
+             
             boolean isprime=true;
+
+            if(n<=1){
+                return false;
+            }
             if(n==2){
                 isprime=true;
             }
