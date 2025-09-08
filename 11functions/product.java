@@ -62,6 +62,15 @@ public class product {
             return true;
         }
 
+
+        public static void primeinrange(int n){
+            for(int i=2;i<n-1;i++){
+                if(primeno(i)){
+                    System.out.print(" "+ i);
+                }
+            }
+            System.out.println();
+        }
     
 
     public static void main(String[]args){
@@ -71,6 +80,7 @@ public class product {
              System.out.println(binomialcoefiicent(5,2));
              System.out.println(primeno(10));
              System.out.println(optimizeprime(10));
+             primeinrange(20);
 
     }
 }
