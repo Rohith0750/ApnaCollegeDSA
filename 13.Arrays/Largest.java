@@ -6,16 +6,16 @@ public class Largest{
         for(int i=0;i<arr.length;i++){
             if(largest <arr[i]){
                 largest=arr[i];
-
             }
-        if(smallest>arr[i]){
-            smallest=arr[i];
+          
         }
-            
+        System.out.println("Largest value is: "+largest);
+        //System.out.println("Smallest value is: "+smallest);
+        
 
-        }
      }
 
     public static void main(String[] args) {
         int arr []= {20,50,10,60,450,30};
+        getlargest(arr);
     }}
