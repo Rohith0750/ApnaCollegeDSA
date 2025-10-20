@@ -13,14 +13,7 @@ public class Largest{
         //System.out.println("Smallest value is: "+smallest);
         
 
-<<<<<<< HEAD:13.Arrays/Largest.java
-=======
-        }
-        System.out.println("Largest: " + largest);
-        System.out.println("Smallest: " + smallest);
->>>>>>> b37e278036520d197afdc6a77b3956de879574fc:13 ARRAYS/Largest.java
-     }
-
+    }
     public static void main(String[] args) {
         int arr []= {20,50,10,60,450,30};
         getlargest(arr);
