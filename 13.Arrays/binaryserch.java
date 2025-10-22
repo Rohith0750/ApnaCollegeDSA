@@ -5,7 +5,7 @@ public class binaryserch {
         int end=arr.length-1;
 
         while (st <= end){
-            int mid = st + (end - st)/2;
+            int mid = (st + end)/2;
             if(arr[mid]==key){
                 System.out.println("Found at index: " + mid);
                 return;
